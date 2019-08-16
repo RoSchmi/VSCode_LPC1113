@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "LPC1113_Test_2"
 		}
 	]
 }
