@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_1/build/CMakeFiles/LPC1113_Test_1.dir/embed.manifest"

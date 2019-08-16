@@ -1,0 +1,13 @@
+[
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_1/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\MathFunctions -I.  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\LPC1113_Test_1.dir\\Main\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_1\\Main\\main.cpp",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_1/Main/main.cpp"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_1/build",
+  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I..\\MathFunctions  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoMathFunctions\\CMakeFiles\\MathFunctions.dir\\mysqrt.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_1\\MathFunctions\\mysqrt.cpp",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_1/MathFunctions/mysqrt.cpp"
+}
+]

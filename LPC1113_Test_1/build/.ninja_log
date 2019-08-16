@@ -1,0 +1,26 @@
+# ninja log v5
+1	1130	587525348	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	3c2a80d0f0abd7aa
+1131	1769	587525349	LPC1113_Test_1.exe	34a2231a4ed2c6ab
+0	952	587590588	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	38ecbed91c478b8c
+952	1256	587590589	LPC1113_Test_1.exe	34a2231a4ed2c6ab
+7	582	587594989	MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj	d94ba6b05cba4817
+582	634	587594989	MathFunctions/MathFunctions.lib	86d966c5828b8bfc
+5	322	587598710	MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj	d94ba6b05cba4817
+323	372	587598710	MathFunctions/MathFunctions.lib	86d966c5828b8bfc
+1	670	587598745	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
+671	1029	587598745	LPC1113_Test_1.exe	dceceea21f238841
+1	669	587598838	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
+669	937	587598838	LPC1113_Test_1.exe	dceceea21f238841
+1	317	587598910	MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj	d94ba6b05cba4817
+317	353	587598910	MathFunctions/MathFunctions.lib	86d966c5828b8bfc
+353	616	587598911	LPC1113_Test_1.exe	dceceea21f238841
+0	570	587599828	MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cpp.obj	cdab9cb4dd2cd916
+570	614	587599828	MathFunctions/MathFunctions.lib	11c687c4f597185d
+614	869	587599828	LPC1113_Test_1.exe	dceceea21f238841
+1	706	587601062	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
+706	1150	587601063	LPC1113_Test_1.exe	dceceea21f238841
+3	1080	587605843	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
+1081	1423	587605844	LPC1113_Test_1.exe	dceceea21f238841
+1	1010	587612226	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
+1010	1330	587612227	LPC1113_Test_1.exe	dceceea21f238841
+1	678	587612690	CMakeFiles/LPC1113_Test_1.dir/Main/main.cpp.obj	cb299273dcb0d91a
