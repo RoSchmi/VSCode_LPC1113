@@ -1,7 +1,13 @@
 [
 {
   "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build",
-  "command": "C:\\PROGRA~2\\MIB055~1\\2017\\COMMUN~1\\VC\\Tools\\MSVC\\1416~1.270\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -I.  /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\LPC1113_Test_2.dir\\Main\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Main\\main.cpp",
-  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Main/main.cpp"
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I../inc/lpc11xx -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os -mapcs   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Main\\main.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Main\\main.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Main/main.c"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I../inc/lpc11xx -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os -mapcs   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Startup\\system_LPC11xx.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Startup\\system_LPC11xx.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Startup/system_LPC11xx.c"
 }
 ]

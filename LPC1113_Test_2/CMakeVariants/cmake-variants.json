@@ -1,0 +1,44 @@
+{
+  "buildType": {
+    "default": "debug",
+      "choices": { 
+        "debug": {
+          "short": "Debug",
+          "long": "Emit debug information without performing optimizations",
+          "buildType": "Debug"
+        },
+        "release": {
+          "short": "Release",
+          "long": "Enable optimizations, omit debug info",
+          "buildType": "Release"
+        },
+        "minsize": {
+          "short": "MinSizeRel",
+          "long": "Optimize for smallest binary size",
+          "buildType": "MinSizeRel"
+        },
+        "reldeb": {
+          "short": "RelWithDebInfo",
+          "long": "Perform optimizations AND include debugging information",
+          "buildType": "RelWithDebInfo"
+        }    
+      }
+  },
+
+  "linkage": {
+    "default": "LPC1113/301",
+    "choices": {
+      "LPC1113/301": {
+        "short": "LPC1113/301",
+        "settings": {
+          "CMAKE_SYSTEM_NAME": "Linux",
+          "BUILD_VERSION": "1.0.0.0",
+          "TOOLCHAIN_PREFIX": "C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin",
+          "TOOL_HEX2DFU_PREFIX": "C:/nanoFramework_Tools/nanoFramework.Tools.Hex2Dfu/bin/Debug"          
+        }
+      }     
+    }
+  }
+}
+
+
