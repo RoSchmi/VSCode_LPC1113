@@ -1,5 +1,0 @@
-C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/edit_cache.dir
-C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/LPC1113_Test_2.dir
-C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/package.dir
-C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/package_source.dir
-C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/rebuild_cache.dir

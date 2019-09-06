@@ -1,9 +1,5 @@
 # ninja log v5
-1	189	589485361	CMakeFiles/LPC1113_Test_2.dir/Startup/system_LPC11xx.c.obj	85ff210cfcdd743f
-1	137	589485493	CMakeFiles/LPC1113_Test_2.dir/Main/main.c.obj	33aab95313f75070
-2	133	589485732	LPC1113_Test_2	9422c97b558bc8a9
-1	120	589485931	LPC1113_Test_2	1f2c8bd56d1e037
-1	132	589486366	LPC1113_Test_2	4df0ab94f0760c04
-4	134	589487357	CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj	e15d6be4a8519bbd
-0	142	589487357	CMakeFiles/LPC1113_Test_2.elf.dir/Main/main.c.obj	a46991052e9bdb1d
-142	276	589487357	LPC1113_Test_2.elf	3b933c684da7d320
+1	205	589494727	CMakeFiles/LPC1113_Test_2.elf.dir/Startup/startup_LPC11xx.S.obj	a42fc458b2d6d0ae
+5	300	589494727	CMakeFiles/LPC1113_Test_2.elf.dir/Main/main.c.obj	a4a620208c5c6b98
+7	311	589494727	CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj	ac941957fc56e0d9
+312	436	589494727	LPC1113_Test_2.elf	637142ef5eb81f13

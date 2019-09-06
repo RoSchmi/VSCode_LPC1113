@@ -12,6 +12,16 @@
 # =============================================================================
 
 #############################################
+# Rule for compiling ASM files.
+
+rule ASM_COMPILER__LPC1113_Test_2.2eelf
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\nanoFramework_Tools\GNU_ARM_Toolchain\8-2018-q4_major\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building ASM object $out
+
+
+#############################################
 # Rule for compiling C files.
 
 rule C_COMPILER__LPC1113_Test_2.2eelf

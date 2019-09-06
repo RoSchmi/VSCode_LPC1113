@@ -31,7 +31,7 @@
       "LPC1113/301": {
         "short": "LPC1113/301",
         "settings": {
-          "CMAKE_SYSTEM_NAME": "Linux",
+          "CMAKE_SYSTEM_NAME": "Generic",
           "BUILD_VERSION": "1.0.0.0",
           "TOOLCHAIN_PREFIX": "C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin",
           "TOOL_HEX2DFU_PREFIX": "C:/nanoFramework_Tools/nanoFramework.Tools.Hex2Dfu/bin/Debug"          

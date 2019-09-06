@@ -39,13 +39,19 @@ include rules.ninja
 build cmake_object_order_depends_target_LPC1113_Test_2.elf: phony || CMakeFiles/LPC1113_Test_2.elf.dir
 build CMakeFiles/LPC1113_Test_2.elf.dir/Main/main.c.obj: C_COMPILER__LPC1113_Test_2.2eelf ../Main/main.c || cmake_object_order_depends_target_LPC1113_Test_2.elf
   DEP_FILE = CMakeFiles\LPC1113_Test_2.elf.dir\Main\main.c.obj.d
-  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os -mapcs
+  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os
   INCLUDES = -I../inc -I../inc/lpc11xx -I.
   OBJECT_DIR = CMakeFiles\LPC1113_Test_2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\LPC1113_Test_2.elf.dir\Main
+build CMakeFiles/LPC1113_Test_2.elf.dir/Startup/startup_LPC11xx.S.obj: ASM_COMPILER__LPC1113_Test_2.2eelf ../Startup/startup_LPC11xx.S || cmake_object_order_depends_target_LPC1113_Test_2.elf
+  DEP_FILE = CMakeFiles\LPC1113_Test_2.elf.dir\Startup\startup_LPC11xx.S.obj.d
+  FLAGS = -g -DDEBUG -D__STARTUP_CLEAR_BSS -g -Wall -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -mapcs -std=gnu99 -mcpu=cortex-m0 -mfloat-abi=soft
+  INCLUDES = -I../inc -I../inc/lpc11xx -I.
+  OBJECT_DIR = CMakeFiles\LPC1113_Test_2.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles\LPC1113_Test_2.elf.dir\Startup
 build CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj: C_COMPILER__LPC1113_Test_2.2eelf ../Startup/system_LPC11xx.c || cmake_object_order_depends_target_LPC1113_Test_2.elf
   DEP_FILE = CMakeFiles\LPC1113_Test_2.elf.dir\Startup\system_LPC11xx.c.obj.d
-  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os -mapcs
+  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os
   INCLUDES = -I../inc -I../inc/lpc11xx -I.
   OBJECT_DIR = CMakeFiles\LPC1113_Test_2.elf.dir
   OBJECT_FILE_DIR = CMakeFiles\LPC1113_Test_2.elf.dir\Startup
@@ -57,9 +63,9 @@ build CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj: C_COMPILER
 #############################################
 # Link the executable LPC1113_Test_2.elf
 
-build LPC1113_Test_2.elf: C_EXECUTABLE_LINKER__LPC1113_Test_2.2eelf CMakeFiles/LPC1113_Test_2.elf.dir/Main/main.c.obj CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj
-  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os -mapcs
-  LINK_FLAGS = -lgcc -lc -lnosys -ffunction-sections -fdata-sections --specs=nano.specs --specs=nosys.specs -Wall -mapcs -Wl,-Map=output.map -TC:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2./lpc1113F_301.ld -static
+build LPC1113_Test_2.elf: C_EXECUTABLE_LINKER__LPC1113_Test_2.2eelf CMakeFiles/LPC1113_Test_2.elf.dir/Main/main.c.obj CMakeFiles/LPC1113_Test_2.elf.dir/Startup/startup_LPC11xx.S.obj CMakeFiles/LPC1113_Test_2.elf.dir/Startup/system_LPC11xx.c.obj
+  FLAGS = -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os
+  LINK_FLAGS = -Wl,-gc-sections -lgcc -lc -lnosys -ffunction-sections -fdata-sections --specs=nano.specs --specs=nosys.specs -Wall -Wl,-Map=output.map -TC:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2./lpc1113F_301.ld -static
   OBJECT_DIR = CMakeFiles\LPC1113_Test_2.elf.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -114,13 +120,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../LPC1113_Test_2Config.h.in C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.13.2/CMakeCCompiler.cmake CMakeFiles/3.13.2/CMakeCXXCompiler.cmake CMakeFiles/3.13.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../LPC1113_Test_2Config.h.in C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeASMInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-ASM.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.13.2/CMakeASMCompiler.cmake CMakeFiles/3.13.2/CMakeCCompiler.cmake CMakeFiles/3.13.2/CMakeCXXCompiler.cmake CMakeFiles/3.13.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../LPC1113_Test_2Config.h.in C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.13.2/CMakeCCompiler.cmake CMakeFiles/3.13.2/CMakeCXXCompiler.cmake CMakeFiles/3.13.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../LPC1113_Test_2Config.h.in C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeASMInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-ASM.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Compiler/GNU.cmake C$:/nanoFramework_Tools/CMake/share/cmake-3.13/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.13.2/CMakeASMCompiler.cmake CMakeFiles/3.13.2/CMakeCCompiler.cmake CMakeFiles/3.13.2/CMakeCXXCompiler.cmake CMakeFiles/3.13.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.
