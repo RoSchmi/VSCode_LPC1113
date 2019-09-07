@@ -13,6 +13,10 @@ set (TOOLCHAIN_PREFIX C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/b
 set(CMAKE_C_COMPILER "C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin/arm-none-eabi-gcc.exe")
 set(CMAKE_CXX_COMPILER "C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin/arm-none-eabi-c++.exe")
 
+# CMAKE_SYSTEM_NAME must be set to Generic 
+# If variable is not set to Generic, the linker will stop with failure because of
+# failure with linker option --major-image-version'
+
 set(CMAKE_SYSTEM_NAME Generic)
 
 # This statement is needed to prevent failure of compiler check
@@ -24,23 +28,7 @@ ENABLE_LANGUAGE(ASM)
 
 project(LPC1113_Test_2 VERSION 0.1.0)
 
-
-
-
-# CMAKE_SYSTEM_NAME must be set to Generic in CMakeCache.txt, setting it here doesn't work
-# If variable is not set to Generic, the linker will stop with failure because of -- 
-
-
-set(CMAKE_SYSTEM_NAME Generic)
-
-message(STATUS "Meldung (2): System_Name = '${CMAKE_SYSTEM_NAME}'")
-
-# message(STATUS "Meldung (2): CMAKE_GNULD_IMAGE_VERSION = '${CMAKE_GNULD_IMAGE_VERSION}'")
-
-# string(REPLACE  ",--major-image-version,<TARGET_VERSION_MAJOR>," "," PROCESSED_STRING ${CMAKE_GNULD_IMAGE_VERSION})
-
-# message(STATUS "Meldung (2): CMAKE_GNULD_IMAGE_VERSION = '${PROCESSED_STRING}'")
-
+message(STATUS "Message: System_Name = '${CMAKE_SYSTEM_NAME}'")
 
 # option (USE_MYMATH "Use tutorial provided math implementation" ON)
 
@@ -84,8 +72,6 @@ endif()
 string(TIMESTAMP BUILD_TIMESTAMP UTC)
 ######################################################
 
-# set (TOOLCHAIN_PREFIX C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin)
-
 message(STATUS "ToolChain_Prefix is: ${TOOLCHAIN_PREFIX}")
 
 ##########################################
@@ -119,22 +105,15 @@ if(NOT BUILD_VERSION)
 endif()
 project(nanoFramework VERSION ${BUILD_VERSION})
 
-message(STATUS "Dummy message: Version Major from LPC1113_Test_2Config.h is '${LPC1113_Test_2_VERSION_MAJOR}'")
-
 include_directories ("${PROJECT_SOURCE_DIR}/inc")
-include_directories ("${PROJECT_SOURCE_DIR}/inc/lpc11xx")
+# include_directories ("${PROJECT_SOURCE_DIR}/inc/lpc11xx")
 # include_directories ("${PROJECT_SOURCE_DIR}/src")
 
 # add_subdirectory (src)
 set (EXTRA_LIBS ${SRC_LIBS} src)
 
 # should we use our own math functions?
-
-
-
-
 # if (USE_MYMATH)
-
 # include_directories ("${PROJECT_SOURCE_DIR}/MathFunctions")
 # add_subdirectory (MathFunctions)
 # set (EXTRA_LIBS ${EXTRA_LIBS} MathFunctions)
@@ -190,44 +169,14 @@ SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -D__STARTUP_CLEAR_BSS")
 
 SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -Wall")
 
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -fno-common")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -ffunction-sections")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -fdata-sections")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -ffreestanding")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -fno-builtin")
-
 SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -mthumb")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -mapcs")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -std=gnu99")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -mcpu=cortex-m0plus")
-
-# SET(CMAKE_ASM_FLAGS_RELEASE "${CMAKE_ASM_FLAGS_RELEASE} -mfloat-abi=soft")
-
-
 
 
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DDEBUG")
 
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DCPU_MK64FN1M0VLL12")
-
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DPRINTF_FLOAT_ENABLE=0")
 
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DSCANF_FLOAT_ENABLE=0")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DPRINTF_ADVANCED_ENABLE=0")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DSCANF_ADVANCED_ENABLE=0")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DFRDM_K64F")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -DFREEDOM")
 
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -g")
 
@@ -237,85 +186,8 @@ SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mthumb")
 
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mcpu=cortex-m0")
 
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
-
 SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -Os")
 
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fno-common")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -ffunction-sections")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fdata-sections")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -ffreestanding")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fno-builtin")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mthumb")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mapcs")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -std=gnu99")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mcpu=cortex-m0")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mfloat-abi=hard")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -mfpu=fpv4-sp-d16")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -MMD")
-
-# SET(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -MP")
-
-
-
-
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DDEBUG")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DCPU_MK64FN1M0VLL12")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-common")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -ffunction-sections")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fdata-sections")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -ffreestanding")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-builtin")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -mthumb")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -mapcs")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-rtti")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fno-exceptions")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -mcpu=cortex-m0")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -mfloat-abi=hard")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -mfpu=fpv4-sp-d16")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -MMD")
-
-# SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -MP")
-
-
-
-# SET(CMAKE_EXE_LINKER_FLAGS_INIT TRUE)
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -g")
 
 SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Wl,-gc-sections")
 
@@ -335,75 +207,31 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} --specs=nosys.
 
 SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Wall")
 
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -fno-common")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -ffunction-sections")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -fdata-sections")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -ffreestanding")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -fno-builtin")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -mthumb")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -mapcs")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Xlinker")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} --gc-sections")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Xlinker")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -static")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Xlinker")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -z")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Xlinker")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} muldefs")
-
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Xlinker")
-
-
-
 SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Wl,-Map=output.map")
 
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -Map=output.map")
 
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -mcpu=cortex-m0")
+message(STATUS "Message: ProjDirPath is '${ProjDirPath}'")
 
-# SET(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -mfloat-abi=soft")
-
-message(STATUS "Meldung: ProjDirPath is '${ProjDirPath}'")
-
+# Set linker script
 set(CMAKE_EXE_LINKER_FLAGS_DEBUG "${CMAKE_EXE_LINKER_FLAGS_DEBUG} -T${ProjDirPath}./lpc1113F_301.ld -static")
-# set(LINKER_SCRIPT "linker.ld")
 
-# set(CMAKE_CROSSCOMPILING true)
+message(STATUS "Message: ld-command string = '${CMAKE_EXE_LINKER_FLAGS_DEBUG}'")
 
-message(STATUS "Meldung: ld-command string = '${CMAKE_EXE_LINKER_FLAGS_DEBUG}'")
-message(STATUS "Meldung: ld-command string release = '${CMAKE_EXE_LINKER_FLAGS_RELEASE}'")
-message(STATUS "Meldung: ld-command string = '${CMAKE_EXE_LINKER_FLAGS_DEBUG}'")
+message(STATUS "Message: C++-command string = '${CMAKE_CXX_FLAGS_DEBUG}'")
+message(STATUS "Message: C-command string = '${CMAKE_C_FLAGS_DEBUG}'")
 
-message(STATUS "Meldung: C++-command string = '${CMAKE_CXX_FLAGS_DEBUG}'")
-message(STATUS "Meldung: C-command string = '${CMAKE_C_FLAGS_DEBUG}'")
-
-message(STATUS "Meldung: System_Name = '${CMAKE_SYSTEM_NAME}'")
-message(STATUS "Meldung: System_Version = '${CMAKE_SYSTEM_VERSION}'")
-message(STATUS "Meldung: Crosscompiling = '${CMAKE_CROSSCOMPILING}'")
-message(STATUS "Meldung: Host_System_Name = '${CMAKE_HOST_SYSTEM_NAME}'")
+message(STATUS "Message: System_Name = '${CMAKE_SYSTEM_NAME}'")
+message(STATUS "Message: System_Version = '${CMAKE_SYSTEM_VERSION}'")
+message(STATUS "Message: Crosscompiling = '${CMAKE_CROSSCOMPILING}'")
+message(STATUS "Message: Host_System_Name = '${CMAKE_HOST_SYSTEM_NAME}'")
 
 # add the executable
 add_executable (LPC1113_Test_2.elf Main/main.c
 Startup/startup_LPC11xx.S
 Startup/system_LPC11xx.c
 )
+
 # target_link_libraries (LPC1113_Test_2 ${EXTRA_LIBS})
-
-
 
 #######################
 message(STATUS "")

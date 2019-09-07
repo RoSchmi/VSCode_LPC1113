@@ -1,19 +1,19 @@
 [
 {
   "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build",
-  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I../inc/lpc11xx -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Main\\main.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Main\\main.c",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Main\\main.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Main\\main.c",
   "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Main/main.c"
 },
 
 {
   "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build",
-  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I../inc/lpc11xx -I.  -g -DDEBUG -D__STARTUP_CLEAR_BSS -g -Wall -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -mapcs -std=gnu99 -mcpu=cortex-m0 -mfloat-abi=soft   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Startup\\startup_LPC11xx.S.obj -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Startup\\startup_LPC11xx.S",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I.  -g -DDEBUG -D__STARTUP_CLEAR_BSS -g -Wall -fno-common -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -mthumb -mapcs -std=gnu99 -mcpu=cortex-m0 -mfloat-abi=soft   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Startup\\startup_LPC11xx.S.obj -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Startup\\startup_LPC11xx.S",
   "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Startup/startup_LPC11xx.S"
 },
 
 {
   "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build",
-  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I../inc/lpc11xx -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Startup\\system_LPC11xx.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Startup\\system_LPC11xx.c",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../inc -I.  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_Test_2.elf.dir\\Startup\\system_LPC11xx.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_Test_2\\Startup\\system_LPC11xx.c",
   "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/Startup/system_LPC11xx.c"
 }
 ]

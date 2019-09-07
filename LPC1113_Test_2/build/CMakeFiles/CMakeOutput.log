@@ -35,26 +35,26 @@ The CXX compiler identification is GNU, found in "c:/Users/Roland/source/VSCode_
 Determining if the C compiler works passed with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_3cbbe"
-[1/2] Building C object CMakeFiles/cmTC_3cbbe.dir/testCCompiler.c.obj
-[2/2] Linking C static library libcmTC_3cbbe.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_f6bb5"
+[1/2] Building C object CMakeFiles/cmTC_f6bb5.dir/testCCompiler.c.obj
+[2/2] Linking C static library libcmTC_f6bb5.a
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_15073"
-[1/2] Building C object CMakeFiles/cmTC_15073.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C static library libcmTC_15073.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_b78b1"
+[1/2] Building C object CMakeFiles/cmTC_b78b1.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C static library libcmTC_b78b1.a
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_15073"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_15073.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C static library libcmTC_15073.a]
+  ignore line: [Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_b78b1"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_b78b1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C static library libcmTC_b78b1.a]
   ignore line: []
   implicit libs: []
   implicit dirs: []
@@ -66,9 +66,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_48f80"
-[1/2] Building C object CMakeFiles/cmTC_48f80.dir/feature_tests.c.obj
-[2/2] Linking C static library libcmTC_48f80.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_c3f92"
+[1/2] Building C object CMakeFiles/cmTC_c3f92.dir/feature_tests.c.obj
+[2/2] Linking C static library libcmTC_c3f92.a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -80,9 +80,9 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_48f80"
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_2c2e4"
-[1/2] Building C object CMakeFiles/cmTC_2c2e4.dir/feature_tests.c.obj
-[2/2] Linking C static library libcmTC_2c2e4.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_40ded"
+[1/2] Building C object CMakeFiles/cmTC_40ded.dir/feature_tests.c.obj
+[2/2] Linking C static library libcmTC_40ded.a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -94,9 +94,9 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_2c2e4"
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_ba18a"
-[1/2] Building C object CMakeFiles/cmTC_ba18a.dir/feature_tests.c.obj
-[2/2] Linking C static library libcmTC_ba18a.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_b31fa"
+[1/2] Building C object CMakeFiles/cmTC_b31fa.dir/feature_tests.c.obj
+[2/2] Linking C static library libcmTC_b31fa.a
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -106,26 +106,26 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_ba18a"
 Determining if the CXX compiler works passed with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_1a78d"
-[1/2] Building CXX object CMakeFiles/cmTC_1a78d.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX static library libcmTC_1a78d.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_a8790"
+[1/2] Building CXX object CMakeFiles/cmTC_a8790.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX static library libcmTC_a8790.a
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_9c260"
-[1/2] Building CXX object CMakeFiles/cmTC_9c260.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX static library libcmTC_9c260.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_3d42f"
+[1/2] Building CXX object CMakeFiles/cmTC_3d42f.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX static library libcmTC_3d42f.a
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_9c260"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_9c260.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX static library libcmTC_9c260.a]
+  ignore line: [Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_3d42f"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_3d42f.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX static library libcmTC_3d42f.a]
   ignore line: []
   implicit libs: []
   implicit dirs: []
@@ -137,9 +137,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_cafad"
-[1/2] Building CXX object CMakeFiles/cmTC_cafad.dir/feature_tests.cxx.obj
-[2/2] Linking CXX static library libcmTC_cafad.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_62f89"
+[1/2] Building CXX object CMakeFiles/cmTC_62f89.dir/feature_tests.cxx.obj
+[2/2] Linking CXX static library libcmTC_62f89.a
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -204,9 +204,9 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_cafad"
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_b5eea"
-[1/2] Building CXX object CMakeFiles/cmTC_b5eea.dir/feature_tests.cxx.obj
-[2/2] Linking CXX static library libcmTC_b5eea.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_878e1"
+[1/2] Building CXX object CMakeFiles/cmTC_878e1.dir/feature_tests.cxx.obj
+[2/2] Linking CXX static library libcmTC_878e1.a
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -271,9 +271,9 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_b5eea"
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_91180"
-[1/2] Building CXX object CMakeFiles/cmTC_91180.dir/feature_tests.cxx.obj
-[2/2] Linking CXX static library libcmTC_91180.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_fd149"
+[1/2] Building CXX object CMakeFiles/cmTC_fd149.dir/feature_tests.cxx.obj
+[2/2] Linking CXX static library libcmTC_fd149.a
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -338,9 +338,9 @@ Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_91180"
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: c:/Users/Roland/source/VSCode_LPC1113/LPC1113_Test_2/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_df6bb"
-[1/2] Building CXX object CMakeFiles/cmTC_df6bb.dir/feature_tests.cxx.obj
-[2/2] Linking CXX static library libcmTC_df6bb.a
+Run Build Command:"C:/nanoFramework_Tools/CMake/bin/ninja.exe" "cmTC_6b554"
+[1/2] Building CXX object CMakeFiles/cmTC_6b554.dir/feature_tests.cxx.obj
+[2/2] Linking CXX static library libcmTC_6b554.a
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
