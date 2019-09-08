@@ -1,0 +1,31 @@
+[
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../CMSIS/Include -I../CMSIS -I../src -I../Startup  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_GCC_VSCode_Uart.elf.dir\\Main\\uart_echo.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_GCC_VSCode_Uart\\Main\\uart_echo.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/Main/uart_echo.c"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../CMSIS/Include -I../CMSIS -I../src -I../Startup  -g -DDEBUG -D__STARTUP_CLEAR_BSS -g -Wall -fno-common -ffunction-sections -fdata-sections -mthumb -mapcs -mcpu=cortex-m0   -o CMakeFiles\\LPC1113_GCC_VSCode_Uart.elf.dir\\Startup\\startup_LPC11xx.S.obj -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_GCC_VSCode_Uart\\Startup\\startup_LPC11xx.S",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/Startup/startup_LPC11xx.S"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../CMSIS/Include -I../CMSIS -I../src -I../Startup  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_GCC_VSCode_Uart.elf.dir\\Startup\\system_LPC11xx.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_GCC_VSCode_Uart\\Startup\\system_LPC11xx.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/Startup/system_LPC11xx.c"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../CMSIS/Include -I../CMSIS -I../src -I../Startup  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_GCC_VSCode_Uart.elf.dir\\src\\led_funcs.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_GCC_VSCode_Uart\\src\\led_funcs.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/src/led_funcs.c"
+},
+
+{
+  "directory": "c:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build",
+  "command": "C:\\nanoFramework_Tools\\GNU_ARM_Toolchain\\8-2018-q4_major\\bin\\arm-none-eabi-gcc.exe  -I../CMSIS/Include -I../CMSIS -I../src -I../Startup  -g -DDEBUG -DPRINTF_FLOAT_ENABLE=0 -DSCANF_FLOAT_ENABLE=0 -g -Wall -mthumb -mcpu=cortex-m0 -Os   -o CMakeFiles\\LPC1113_GCC_VSCode_Uart.elf.dir\\src\\uart_funcs.c.obj   -c C:\\Users\\Roland\\source\\VSCode_LPC1113\\LPC1113_GCC_VSCode_Uart\\src\\uart_funcs.c",
+  "file": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/src/uart_funcs.c"
+}
+]

@@ -1,0 +1,3 @@
+C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build/CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir
+C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build/CMakeFiles/edit_cache.dir
+C:/Users/Roland/source/VSCode_LPC1113/LPC1113_GCC_VSCode_Uart/build/CMakeFiles/rebuild_cache.dir

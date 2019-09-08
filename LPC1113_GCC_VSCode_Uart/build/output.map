@@ -1,0 +1,384 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+                              c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (exit)
+c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+                              c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                              c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (__libc_init_array)
+c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                              c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o (memset)
+c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                              c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+ctr                 0x4               CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .data          0x00000000        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00006000         xr
+RAM              0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+LOAD CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+LOAD CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+LOAD CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+LOAD CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+LOAD CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+START GROUP
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libg_nano.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a
+END GROUP
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+
+.text           0x00000000      0x52c
+                0x00000000                __START = .
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+                0x00000000                __isr_vector
+ *(.text*)
+ .text          0x000000c0       0x48 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .text          0x00000108       0x78 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x00000108                _start
+                0x00000108                _mainCRTStartup
+ .text.exit     0x00000180       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+                0x00000180                exit
+ .text.__libc_init_array
+                0x000001ac       0x48 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x000001ac                __libc_init_array
+ .text.memset   0x000001f4       0x10 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x000001f4                memset
+ .text._exit    0x00000204        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+                0x00000204                _exit
+ .text          0x00000208       0x12 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                0x00000208                Delay
+ *fill*         0x0000021a        0x2 
+ .text.startup  0x0000021c       0x60 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                0x0000021c                main
+ .text          0x0000027c       0x70 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+                0x0000027c                Reset_Handler
+                0x000002bc                NMI_Handler
+                0x000002be                HardFault_Handler
+                0x000002c0                SVC_Handler
+                0x000002c2                DebugMon_Handler
+                0x000002c4                PendSV_Handler
+                0x000002c6                SysTick_Handler
+                0x000002c8                Default_Handler
+                0x000002c8                DEF_IRQHandler
+                0x000002ca                WAKEUP_IRQHandler
+                0x000002cc                SSP1_IRQHandler
+                0x000002ce                I2C_IRQHandler
+                0x000002d0                TIMER16_0_IRQHandler
+                0x000002d2                TIMER16_1_IRQHandler
+                0x000002d4                TIMER32_0_IRQHandler
+                0x000002d6                TIMER32_1_IRQHandler
+                0x000002d8                SSP0_IRQHandler
+                0x000002da                UART_IRQHandler
+                0x000002dc                ADC_IRQHandler
+                0x000002de                WDT_IRQHandler
+                0x000002e0                BOD_IRQHandler
+                0x000002e2                PIOINT3_IRQHandler
+                0x000002e4                PIOINT2_IRQHandler
+                0x000002e6                PIOINT1_IRQHandler
+                0x000002e8                PIOINT0_IRQHandler
+ .text          0x000002ec       0x98 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+                0x000002ec                Main_PLL_Setup
+                0x00000358                SystemInit
+ .text          0x00000384       0x5c CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+                0x00000384                LED_Config
+                0x000003c8                LED_Set
+                0x000003d4                LED_Clear
+ .text          0x000003e0      0x108 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+                0x000003e0                uart_status_rxd
+                0x000003f0                uart_status_txd
+                0x00000400                uart_get_intr_IIR
+                0x0000040c                UART_putc
+                0x00000424                UART_getc
+                0x00000438                UART_config
+                0x000004bc                UART_echo
+                0x000004d4                UART_puts
+ *(.init)
+ .init          0x000004e8        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x000004e8                _init
+ .init          0x000004ec        0x8 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ *(.fini)
+ .fini          0x000004f4        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+                0x000004f4                _fini
+ .fini          0x000004f8        0x8 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata._global_impure_ptr
+                0x00000500        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+                0x00000500                _global_impure_ptr
+ .rodata.str1.1
+                0x00000504       0x23 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ *(.eh_frame*)
+ *fill*         0x00000527        0x1 
+ .eh_frame      0x00000528        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x00000528        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+
+.glue_7         0x0000052c        0x0
+ .glue_7        0x0000052c        0x0 linker stubs
+
+.glue_7t        0x0000052c        0x0
+ .glue_7t       0x0000052c        0x0 linker stubs
+
+.vfp11_veneer   0x0000052c        0x0
+ .vfp11_veneer  0x0000052c        0x0 linker stubs
+
+.v4_bx          0x0000052c        0x0
+ .v4_bx         0x0000052c        0x0 linker stubs
+
+.iplt           0x0000052c        0x0
+ .iplt          0x0000052c        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000052c                __exidx_start = .
+
+.ARM.exidx      0x0000052c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0000052c        0x8 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+                0x00000534                __exidx_end = .
+                0x00000534                __etext = .
+
+.rel.dyn        0x00000534        0x0
+ .rel.iplt      0x00000534        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+
+.data           0x10000000       0x74 load address 0x00000534
+                0x10000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x10000000       0x60 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .data          0x10000060        0xc CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+                0x10000060                ClockSource
+                0x10000064                SystemFrequency
+                0x10000068                SystemAHBFrequency
+                0x1000006c                . = ALIGN (0x4)
+                0x1000006c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x1000006c                PROVIDE (__preinit_array_end = .)
+                0x1000006c                . = ALIGN (0x4)
+                0x1000006c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x1000006c        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x10000070                PROVIDE (__init_array_end = .)
+                0x10000070                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x10000070        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+ *(.jcr*)
+                0x10000074                . = ALIGN (0x4)
+                0x10000074                __data_end__ = .
+
+.igot.plt       0x10000074        0x0 load address 0x000005a8
+ .igot.plt      0x10000074        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+
+.bss            0x10000074       0x20 load address 0x000005a8
+                0x10000074                . = ALIGN (0x4)
+                0x10000074                __bss_start__ = .
+ *(.bss*)
+ .bss           0x10000074       0x1c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ *(COMMON)
+ COMMON         0x10000090        0x4 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                0x10000090                ctr
+                0x10000094                . = ALIGN (0x4)
+                0x10000094                __bss_end__ = .
+
+.heap           0x10000098        0x0
+                0x10000098                __end__ = .
+                [!provide]                PROVIDE (end = .)
+ *(.heap*)
+ .heap          0x10000098        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+                0x10000098                __HeapLimit = .
+
+.stack_dummy    0x10000098      0xc00
+ *(.stack*)
+ .stack         0x10000098      0xc00 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+                0x10002000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x10001400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x10002000                PROVIDE (__stack = __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(LPC1113_GCC_VSCode_Uart.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000091       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000bd       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000e9       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000115       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000141       0x31 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .ARM.attributes
+                0x00000172       0x1b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .ARM.attributes
+                0x0000018d       0x31 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .ARM.attributes
+                0x000001be       0x31 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .ARM.attributes
+                0x000001ef       0x31 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+ .ARM.attributes
+                0x00000220       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtend.o
+ .ARM.attributes
+                0x0000024c       0x1e c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtn.o
+
+.comment        0x00000000       0x7f
+ .comment       0x00000000       0x7f CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                                 0x80 (size before relaxing)
+ .comment       0x0000007f       0x80 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .comment       0x0000007f       0x80 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .comment       0x0000007f       0x80 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_frame    0x00000000      0x20c
+ .debug_frame   0x00000000       0x28 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
+ .debug_frame   0x00000094       0x44 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_frame   0x000000d8       0x40 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_frame   0x00000118       0x40 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_frame   0x00000158       0xb4 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_info     0x00000000     0x176e
+ .debug_info    0x00000000      0x1cb CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_info    0x000001cb       0x26 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_info    0x000001f1      0x467 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_info    0x00000658      0x7d0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_info    0x00000e28      0x946 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_abbrev   0x00000000      0x4f0
+ .debug_abbrev  0x00000000       0xde CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_abbrev  0x000000de       0x14 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_abbrev  0x000000f2       0xff CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_abbrev  0x000001f1      0x132 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_abbrev  0x00000323      0x1cd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_loc      0x00000000       0xb9
+ .debug_loc     0x00000000       0x36 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_loc     0x00000036       0x19 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_loc     0x0000004f       0x6a CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_aranges  0x00000000       0xa8
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_aranges
+                0x00000028       0x20 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_aranges
+                0x00000048       0x20 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_aranges
+                0x00000068       0x20 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_aranges
+                0x00000088       0x20 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_ranges  0x00000018       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_line     0x00000000      0x6b0
+ .debug_line    0x00000000      0x18c CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_line    0x0000018c       0x85 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_line    0x00000211      0x18d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_line    0x0000039e      0x14b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_line    0x000004e9      0x1c7 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+
+.debug_str      0x00000000      0x711
+ .debug_str     0x00000000      0x187 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                                0x1cc (size before relaxing)
+ .debug_str     0x00000187       0x2b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+                                 0x6f (size before relaxing)
+ .debug_str     0x000001b2      0x2c3 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+                                0x41a (size before relaxing)
+ .debug_str     0x00000475      0x1fd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+                                0x5c8 (size before relaxing)
+ .debug_str     0x00000672       0x9f CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+                                0x638 (size before relaxing)

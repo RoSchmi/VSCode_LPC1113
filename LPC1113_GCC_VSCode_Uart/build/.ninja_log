@@ -1,0 +1,7 @@
+# ninja log v5
+1	144	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj	115fed11bab02121
+7	231	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+11	245	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj	b523f75a1bafe3ff
+5	246	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj	beaf534a6ec12bba
+9	265	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj	113af19d9a2574d8
+266	427	589660901	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
