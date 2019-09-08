@@ -7,3 +7,5 @@ First test to develop a C program on Visual Studio Code
 ### LPC1113_Test_2
 Working Blinky example for LPC1113F/301 MCU for gcc-toolchain on Visual Studio Code using CMake
 
+### LPC1113_GCC_VSCode_Uart
+Working simple Uart and Blinky example for LPC1113F/301 MCU for gcc-toolchain on Visual Studio Code using CMake
