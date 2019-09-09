@@ -27,14 +27,18 @@ extern void UART_puts(char * mytext);
 
 void   Delay(uint32_t nCount);
 
-int32_t ctr;
+int32_t storeVar = 100;
+int32_t ctr = 100;
+
 
 int main(void)
 {
     __NOP();
     __NOP();
 	  ctr = 0;
-  
+#define LOOP_COUNT 0x00080
+  uint32_t loop_Counter = LOOP_COUNT;
+   
   // Configure LED outputs
   LED_Config();
 
@@ -43,8 +47,6 @@ int main(void)
   
 	UART_puts("Simple UART echo test\r\n");
 	
-
-#define LOOP_COUNT 0x80000
   while(1){
 
     __NOP();    // To easily recognize this code in assembly
@@ -52,16 +54,16 @@ int main(void)
     __NOP();
     __NOP();
     __NOP();
-		
-	 Delay(LOOP_COUNT);
-	 ctr++;
-   LED_Set();
+	  
+    Delay(loop_Counter);	  
+	  ctr++;
+    LED_Set();
 	
-	 UART_puts("On\r\n");
-   Delay(LOOP_COUNT);
+	  UART_puts("On\r\n");
+    Delay(loop_Counter);
 			
-   LED_Clear();
-	 UART_puts("Off\r\n");
+    LED_Clear();
+	  UART_puts("Off\r\n");
    };
 }
 

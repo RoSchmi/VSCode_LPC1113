@@ -11,11 +11,6 @@ c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none
 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
                               c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-exit.o) (_exit)
 
-Allocating common symbols
-Common symbol       size              file
-
-ctr                 0x4               CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
-
 Discarded input sections
 
  .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crti.o
@@ -42,7 +37,6 @@ Discarded input sections
  .text          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
  .data          0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(_exit.o)
- .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
  .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
  .data          0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
  .bss           0x00000000        0x0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
@@ -219,49 +213,50 @@ LOAD c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm
 .rel.dyn        0x00000534        0x0
  .rel.iplt      0x00000534        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.data           0x10000000       0x74 load address 0x00000534
+.data           0x10000000       0x7c load address 0x00000534
                 0x10000000                __data_start__ = .
  *(vtable)
  *(.data*)
  .data.impure_data
                 0x10000000       0x60 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-impure.o)
- .data          0x10000060        0xc CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
-                0x10000060                ClockSource
-                0x10000064                SystemFrequency
-                0x10000068                SystemAHBFrequency
-                0x1000006c                . = ALIGN (0x4)
-                0x1000006c                PROVIDE (__preinit_array_start = .)
+ .data          0x10000060        0x8 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                0x10000060                ctr
+                0x10000064                storeVar
+ .data          0x10000068        0xc CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+                0x10000068                ClockSource
+                0x1000006c                SystemFrequency
+                0x10000070                SystemAHBFrequency
+                0x10000074                . = ALIGN (0x4)
+                0x10000074                PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
-                0x1000006c                PROVIDE (__preinit_array_end = .)
-                0x1000006c                . = ALIGN (0x4)
-                0x1000006c                PROVIDE (__init_array_start = .)
+                0x10000074                PROVIDE (__preinit_array_end = .)
+                0x10000074                . = ALIGN (0x4)
+                0x10000074                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x1000006c        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
-                0x10000070                PROVIDE (__init_array_end = .)
-                0x10000070                . = ALIGN (0x4)
+ .init_array    0x10000074        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+                0x10000078                PROVIDE (__init_array_end = .)
+                0x10000078                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
- .fini_array    0x10000070        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .fini_array    0x10000078        0x4 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end = .)
  *(.jcr*)
-                0x10000074                . = ALIGN (0x4)
-                0x10000074                __data_end__ = .
+                0x1000007c                . = ALIGN (0x4)
+                0x1000007c                __data_end__ = .
 
-.igot.plt       0x10000074        0x0 load address 0x000005a8
- .igot.plt      0x10000074        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+.igot.plt       0x1000007c        0x0 load address 0x000005b0
+ .igot.plt      0x1000007c        0x0 c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
 
-.bss            0x10000074       0x20 load address 0x000005a8
-                0x10000074                . = ALIGN (0x4)
-                0x10000074                __bss_start__ = .
+.bss            0x1000007c       0x1c load address 0x000005b0
+                0x1000007c                . = ALIGN (0x4)
+                0x1000007c                __bss_start__ = .
  *(.bss*)
- .bss           0x10000074       0x1c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
+ .bss           0x1000007c       0x1c c:/nanoframework_tools/gnu_arm_toolchain/8-2018-q4_major/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m/crtbegin.o
  *(COMMON)
- COMMON         0x10000090        0x4 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
-                0x10000090                ctr
-                0x10000094                . = ALIGN (0x4)
-                0x10000094                __bss_end__ = .
+                0x10000098                . = ALIGN (0x4)
+                0x10000098                __bss_end__ = .
 
 .heap           0x10000098        0x0
                 0x10000098                __end__ = .
@@ -329,19 +324,19 @@ OUTPUT(LPC1113_GCC_VSCode_Uart.elf elf32-littlearm)
  .debug_frame   0x00000118       0x40 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
  .debug_frame   0x00000158       0xb4 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_info     0x00000000     0x176e
- .debug_info    0x00000000      0x1cb CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
- .debug_info    0x000001cb       0x26 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
- .debug_info    0x000001f1      0x467 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
- .debug_info    0x00000658      0x7d0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
- .debug_info    0x00000e28      0x946 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+.debug_info     0x00000000     0x178b
+ .debug_info    0x00000000      0x1e8 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_info    0x000001e8       0x26 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_info    0x0000020e      0x467 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_info    0x00000675      0x7d0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_info    0x00000e45      0x946 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_abbrev   0x00000000      0x4f0
- .debug_abbrev  0x00000000       0xde CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
- .debug_abbrev  0x000000de       0x14 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
- .debug_abbrev  0x000000f2       0xff CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
- .debug_abbrev  0x000001f1      0x132 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
- .debug_abbrev  0x00000323      0x1cd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+.debug_abbrev   0x00000000      0x510
+ .debug_abbrev  0x00000000       0xfe CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_abbrev  0x000000fe       0x14 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_abbrev  0x00000112       0xff CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_abbrev  0x00000211      0x132 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_abbrev  0x00000343      0x1cd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
 .debug_loc      0x00000000       0xb9
  .debug_loc     0x00000000       0x36 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
@@ -364,21 +359,21 @@ OUTPUT(LPC1113_GCC_VSCode_Uart.elf elf32-littlearm)
  .debug_ranges  0x00000000       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
  .debug_ranges  0x00000018       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_line     0x00000000      0x6b0
- .debug_line    0x00000000      0x18c CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
- .debug_line    0x0000018c       0x85 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
- .debug_line    0x00000211      0x18d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
- .debug_line    0x0000039e      0x14b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
- .debug_line    0x000004e9      0x1c7 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+.debug_line     0x00000000      0x6ab
+ .debug_line    0x00000000      0x187 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_line    0x00000187       0x85 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_line    0x0000020c      0x18d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_line    0x00000399      0x14b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_line    0x000004e4      0x1c7 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_str      0x00000000      0x711
- .debug_str     0x00000000      0x187 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
-                                0x1cc (size before relaxing)
- .debug_str     0x00000187       0x2b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+.debug_str      0x00000000      0x727
+ .debug_str     0x00000000      0x19d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+                                0x1e2 (size before relaxing)
+ .debug_str     0x0000019d       0x2b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
                                  0x6f (size before relaxing)
- .debug_str     0x000001b2      0x2c3 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_str     0x000001c8      0x2c3 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
                                 0x41a (size before relaxing)
- .debug_str     0x00000475      0x1fd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_str     0x0000048b      0x1fd CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
                                 0x5c8 (size before relaxing)
- .debug_str     0x00000672       0x9f CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+ .debug_str     0x00000688       0x9f CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
                                 0x638 (size before relaxing)

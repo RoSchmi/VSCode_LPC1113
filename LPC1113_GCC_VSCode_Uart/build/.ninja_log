@@ -5,3 +5,17 @@
 5	246	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj	beaf534a6ec12bba
 9	265	589660901	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj	113af19d9a2574d8
 266	427	589660901	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+1	215	589726971	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+215	407	589726972	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+2	120	589727632	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+120	229	589727632	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+1	113	589728272	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+113	227	589728273	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+1	114	589728477	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+114	234	589728477	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+1	115	589728625	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+115	227	589728625	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+1	112	589728728	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+112	223	589728728	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
+2	148	589734002	CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj	824895801f8bb4bc
+148	293	589734002	LPC1113_GCC_VSCode_Uart.elf	b67984c545bba1c8
