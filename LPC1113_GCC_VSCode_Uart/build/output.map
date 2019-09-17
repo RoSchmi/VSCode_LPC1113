@@ -324,12 +324,12 @@ OUTPUT(LPC1113_GCC_VSCode_Uart.elf elf32-littlearm)
  .debug_frame   0x00000118       0x40 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
  .debug_frame   0x00000158       0xb4 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_info     0x00000000     0x178b
- .debug_info    0x00000000      0x1e8 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
- .debug_info    0x000001e8       0x26 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
- .debug_info    0x0000020e      0x467 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
- .debug_info    0x00000675      0x7d0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
- .debug_info    0x00000e45      0x946 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+.debug_info     0x00000000     0x178e
+ .debug_info    0x00000000      0x1eb CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_info    0x000001eb       0x26 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_info    0x00000211      0x467 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_info    0x00000678      0x7d0 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_info    0x00000e48      0x946 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
 .debug_abbrev   0x00000000      0x510
  .debug_abbrev  0x00000000       0xfe CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
@@ -359,12 +359,12 @@ OUTPUT(LPC1113_GCC_VSCode_Uart.elf elf32-littlearm)
  .debug_ranges  0x00000000       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
  .debug_ranges  0x00000018       0x18 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
-.debug_line     0x00000000      0x6ab
- .debug_line    0x00000000      0x187 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
- .debug_line    0x00000187       0x85 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
- .debug_line    0x0000020c      0x18d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
- .debug_line    0x00000399      0x14b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
- .debug_line    0x000004e4      0x1c7 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
+.debug_line     0x00000000      0x6b0
+ .debug_line    0x00000000      0x18c CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj
+ .debug_line    0x0000018c       0x85 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/startup_LPC11xx.S.obj
+ .debug_line    0x00000211      0x18d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Startup/system_LPC11xx.c.obj
+ .debug_line    0x0000039e      0x14b CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/led_funcs.c.obj
+ .debug_line    0x000004e9      0x1c7 CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/src/uart_funcs.c.obj
 
 .debug_str      0x00000000      0x727
  .debug_str     0x00000000      0x19d CMakeFiles/LPC1113_GCC_VSCode_Uart.elf.dir/Main/uart_echo.c.obj

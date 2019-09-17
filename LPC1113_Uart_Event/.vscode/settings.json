@@ -1,0 +1,5 @@
+{
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "cortex-debug.armToolchainPath" : "C:/nanoFramework_Tools/GNU_ARM_Toolchain/8-2018-q4_major/bin",
+    "cortex-debug.JLinkGDBServerPath": "C:/Users/Roland/source/VSCode_LPC1113/LPC1113_Uart_Event/JLinkGDBServerCL.exe"
+}

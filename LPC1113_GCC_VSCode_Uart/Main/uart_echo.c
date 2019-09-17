@@ -36,7 +36,7 @@ int main(void)
     __NOP();
     __NOP();
 	  ctr = 0;
-#define LOOP_COUNT 0x00080
+#define LOOP_COUNT 0x80000
   uint32_t loop_Counter = LOOP_COUNT;
    
   // Configure LED outputs
