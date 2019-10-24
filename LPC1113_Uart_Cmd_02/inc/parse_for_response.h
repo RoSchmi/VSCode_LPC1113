@@ -1,5 +1,4 @@
 
-#pragma once
 #ifndef __PARSE_FOR_RESPONSE_H_
 #define __PARSE_FOR_RESPONSE_H_
 

@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef __CMD_SPLIT_H_
 #define __CMD_SPLIT_H_
 
