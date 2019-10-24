@@ -15,6 +15,8 @@ Actually the only realized command is 'dump', followed by 'this' or a memory add
 It's a working example but is not exensively tested.
 As I'm not an experienced C programmer, the code may be of low quality.
 
+![gallery](https://github.com/RoSchmi/VSCode_LPC1113/blob/master/LPC1113_Uart_Cmd_02/pictures/Console.png)
 
 
+![gallery](https://github.com/RoSchmi/VSCode_LPC1113/blob/master/LPC1113_Uart_Cmd_02/pictures/Lpc1113%20(GHI%20DL40%20Module).png)
 
