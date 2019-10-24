@@ -27,7 +27,6 @@
 
 #include <ring_buffer.h>
 
-#include <uart_cmd.h>
 #include <uart_line.h>
 #include <cmd_split.h>
 #include <parse_for_response.h>
