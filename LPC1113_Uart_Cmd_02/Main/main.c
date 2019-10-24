@@ -8,6 +8,17 @@
 // Actually the only realized command is 'dump', followed by 'this' or a memory address in hex like '0x00541234' and the number of addresses to dump
 // 'this' means that the values of the first 16 memory addresses starting with the address of the Command variable cmd are printed.
 
+
+// Commands:
+// 'dump', followed by 'this' as second parameter
+//         or a memory address in hex like '0x00541234' 
+//         followed by the number of addresses to dump.
+//         'this' means that the values of the first 16 memory addresses starting with the address
+//         of the command-name ('dump') are printed.
+//
+//         'stoptimer'  - stops the timer (which toggles a GPIO)
+//         starttimer' - starts the timer (which toggles a GPIO)
+
 // The following functions can be realized
 // Blinking of a LED (GPIO)
 // Uses a timer interrupt
@@ -23,7 +34,7 @@
 #include <cmsis_gcc.h>
 #include <stdio.h>
 
-//#include <lpc_types.h>
+#include <lpc_types.h>
 
 #include <ring_buffer.h>
 
@@ -64,9 +75,6 @@ extern void UART_puts(char * mytext);
 extern int Uart_Line_Append(UART_LINE_T *uartLine, char appChar);
 extern int UART_Line_GetInpStr(UART_LINE_T *uartLine, void *inpStr);
 extern int Uart_Line_Reset(UART_LINE_T *uartLine, void *buffer);
-
-
-
 extern uint32_t uart_get_intr_IIR(void);
 extern void uart_setup(void);
 extern void uart_sendch(int);
@@ -121,6 +129,7 @@ uint32_t readStrIndex = 0;
 
 static UART_LINE_T uartLine;
 
+
 int main(void)
 {
     __NOP();
@@ -141,10 +150,14 @@ int main(void)
     uart_setup();
   
     UART_puts("\r\nEnter a Command: CommandName and max. 3 parameters. \r\n");
-	  UART_puts("Actually the only realized command is 'dump', followed by 'this' as second parameter\r\n");
-    UART_puts("or a memory address in hex like '0x00541234' followed by the number of addresses to dump\r\n");
-	  UART_puts("'this' means that the values of the first 16 memory addresses starting with the address\r\n");
-    UART_puts("of the command-name ('dump') are printed. \r\n>");
+    UART_puts("Commands;\r\n");
+	  UART_puts("'dump', followed by 'this' as second parameter\r\n");
+    UART_puts("      or a memory address in hex like '0x00541234' followed by the number of addresses to dump\r\n");
+	  UART_puts("      'this' means that the values of the first 16 memory addresses starting with the address\r\n");
+    UART_puts("      of the command-name ('dump') are printed. \r\n\r\n");
+    UART_puts("'stoptimer'  - stops the timer (which toggles a GPIO)\r\n");
+    UART_puts("'starttimer' - starts the timer (which toggles a GPIO)\r\n>");
+
   
     misc_IO_config();
 	
@@ -154,7 +167,7 @@ int main(void)
   { 
     time_delay(loop_Counter);	  
     key = 0;
-	  while (key != 27) 
+	  while (key != 27)  // Esc
     {
       time_delay(loop_Counter);    			          
       bytes = UART_ReadRB(&rxring, &key, 1);                          
@@ -173,9 +186,8 @@ int main(void)
                 if (!strcmp(par_1, "this"))          
                 {
 			              parse_for_resp(cmdName, par_1, par_2, par_3, &buffer, sizeof(buffer));                   
-                    memcpy(startAddr, buffer, strlen(buffer) < 10 ? strlen(buffer) : 10);
-                    char count[]= "16";                 
-                    printAddresses(startAddr, count);
+                    memcpy(startAddr, buffer, strlen(buffer) < 10 ? strlen(buffer) : 10);                                   
+                    printAddresses(startAddr, "16\0");
                 }
                 else
                 {
@@ -184,6 +196,16 @@ int main(void)
                     printAddresses(startAddr, strcmp(par_2, "") ? par_2 : "1\0");
                 }                              
             }
+            else     // other command
+            {
+                parse_for_resp(cmdName, par_1, par_2 , par_3, &buffer, sizeof(buffer));
+                UART_puts("\r\n");
+                UART_puts(buffer);
+                UART_puts("\r\n>");
+            }
+
+
+            
          
             // Reset all buffers
 			      memset(buffer, 0, sizeof(buffer));
@@ -198,12 +220,12 @@ int main(void)
   }
 }
 
-//void printAddresses(char * StartAddress, uint32_t  cnt)
 void printAddresses(char * StartAddress, char * counter)
 {
   char dumpCmd[6] = "dump";
   char actHexAddress[11] = "";
   int cnt = 1;
+  volatile uint32_t actIntAddress = 0;
   
   if (isNumberMax_8(counter, Hex))
   {
@@ -216,9 +238,6 @@ void printAddresses(char * StartAddress, char * counter)
      cnt = char2int((char*)counter, strlen(counter));
     }
   }
-    
-  volatile uint32_t actIntAddress = 0;
-  
   if (isNumberMax_8(StartAddress, Hex))
   {
        actIntAddress = htoi((char*)StartAddress);
@@ -226,8 +245,6 @@ void printAddresses(char * StartAddress, char * counter)
   UART_puts("\r\n");
   for (int i = 0; i < cnt; i++)
   {
-    //memset(actHexAddress, 0, sizeof(actHexAddress));
-    // memset(buffer, 0, sizeof(buffer));
     uint32_t_ToHex(actIntAddress, actHexAddress, sizeof(actHexAddress));
     memset(buffer, 0, sizeof(buffer));
     parse_for_resp(dumpCmd, actHexAddress, "", "", &buffer, sizeof(buffer));
@@ -240,7 +257,6 @@ void printAddresses(char * StartAddress, char * counter)
 
 
 /* Copy data from a receive ring buffer */
-
 // int Chip_UART_ReadRB(LPC_USART_T *pUART, RINGBUFF_T *pRB, void *data, int bytes)
 int UART_ReadRB(RINGBUFF_T *pRB, void *data, int bytes)
 {
@@ -263,7 +279,6 @@ int UART_Receive( void *data, int numBytes)
 		p8++;
 		readBytes++;
 	}
-
 	return readBytes;
 }
 
@@ -301,6 +316,7 @@ void time_delay(int loop)
   }
   return;
 }
+
 // ----------------------------------------------
 // 32-bit Timer for periodic input and sensor sampling,
 // state machine operations
@@ -367,14 +383,10 @@ void TIMER32_0_IRQHandler(void)
     LED_Clear();
   }
   ledState = !ledState; 
+
+  // LPC_TMR32B0->TCR = 0;   // Disable
   return;
 }
-
-
-
-
-
-
 
 // ----------------------------------------------
 // LED, button and clock control

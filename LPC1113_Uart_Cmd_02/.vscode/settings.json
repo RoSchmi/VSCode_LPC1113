@@ -50,6 +50,9 @@
         "cmd_split.h": "c",
         "string": "c",
         "string.h": "c",
-        "parse_for_response.h": "c"
+        "parse_for_response.h": "c",
+        "lpc11xx.h": "c",
+        "cmsis_gcc.h": "c",
+        "stdbool.h": "c"
     }
 }

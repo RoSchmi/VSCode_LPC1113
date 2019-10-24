@@ -1,6 +1,7 @@
 #ifndef __UINT32_T_TO_HEXSTRING_H_
 #define __UINT32_T_TO_HEXSTRING_H_
 
+#include "LPC11xx.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <stdbool.h>

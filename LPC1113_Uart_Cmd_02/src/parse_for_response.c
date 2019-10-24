@@ -1,4 +1,4 @@
-//#include "pch.h"
+#include "LPC11xx.h"
 #include "parse_for_response.h"
 #include <string.h>
 #include <stdint.h>
@@ -6,6 +6,28 @@
 #include <ctype.h>
 #include <stdbool.h>
 #include <isNumber.h>
+
+
+#include <LPC11xx.h>
+#include <cmsis_gcc.h>
+
+
+#include <lpc_types.h>
+
+//#include <ring_buffer.h>
+
+//#include <uart_line.h>
+//#include <cmd_split.h>
+//#include <parse_for_response.h>
+//#include <uint32_t_ToHexString.h>
+
+
+
+
+//#include "charToInt.h"
+
+
+
 
 //#include <iostream>
 //#include <sstream>
@@ -82,6 +104,16 @@ bool parse_for_resp(char * cmd, char * par1, char * par2, char * par3, void * re
 					returnResult = false;
 				}
 			}
+	else if (!strcmp(command, "stoptimer"))
+			{
+                LPC_TMR32B0->TCR = 0;   // Timer disable
+				strcpy(theAnswer, "Timer was stopped");
+			}
+	else if (!strcmp(command, "starttimer"))
+			{
+                LPC_TMR32B0->TCR = 1;   // Timer enable
+				strcpy(theAnswer, "Timer was started");
+			}		
 		
 	uint32_t allowedLength = bufLen -1 > strlen(theAnswer) ? strlen(theAnswer) : bufLen -1;
     if (allowedLength < strlen(theAnswer))
